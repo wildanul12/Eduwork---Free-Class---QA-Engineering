@@ -1,0 +1,222 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,comment,priority,severity,automation,type,tags,step_comments,case_parameter
+1,"TC_01-Verifikasi Login ketika memasukan username dan password yang benar","Login Web Saucedemo",1,"Wildanul Ahsan",10950,Passed,"2022-11-29 04:31:56","1. User membuka browser
+2. User membuka situs https://www.saucedemo.com/
+3. User memasukan username dan password yang benar
+4. Login
+","1. Chrome, Mozilla, dll.
+2. https://www.saucedemo.com/
+3. username : standard\_user
+password : secret\_sauce
+4. 
+","1. User membuka browser Chrome
+2. 1. User bisa membuka situs https://www.saucedemo.com/
+2. User berada di halaman login
+3. 1. username dan password benar
+2. user bisa login
+4. 1. User klik login
+2. User bisa login
+3. User masuk ke halaman awal yang menampilkan produk baju dan tas
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+",,High,Normal,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. ",
+2,"TC_02-Verifikasi login ketika user memasukan username yang salah dan password yang benar","Login Web Saucedemo",1,"Wildanul Ahsan",10536,Passed,"2022-11-29 04:32:08","1. User membuka browser
+2. User membuka situs https://www.saucedemo.com/
+3. User memasukan username yang salah dan password yang benar
+4. Klik Login
+","1. Chrome, Mozilla, dll.
+2. https://www.saucedemo.com/
+3. username : wildan 
+password : secret\_sauce
+4. 
+","1. User membuka browser Chrome
+2. 1. User bisa membuka situs https://www.saucedemo.com/
+2. User berada di halaman login
+3. 1. Username salah
+2. User tidak bisa login
+3. User masih di halaman login
+4. User mendapatkan pesan error ""Epic sadface: Username and password do not match any user in this service""
+4. 1. User klik login
+2. User tidak bisa login
+3. User masih di halaman login
+4. User mendapatkan pesan error ""Epic sadface: Username and password do not match any user in this service""
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+",,High,Normal,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. ",
+3,"TC_03-Verifikasi login ketika user memasukan username yang benar dan password yang salah","Login Web Saucedemo",1,"Wildanul Ahsan",7577,Passed,"2022-11-29 04:32:17","1. User membuka browser
+2. User membuka situs https://www.saucedemo.com/
+3. User memasukan username yang benar dan password yang salah
+4. Klik login
+","1. Chrome, Mozilla, dll.
+2. https://www.saucedemo.com/
+3. username : standard\_user
+password : wildan
+4. 
+","1. User membuka browser Chrome
+2. 1. User bisa membuka situs https://www.saucedemo.com/
+2. User berada di halaman login
+3. 1. Password salah
+2. User tidak bisa login
+3. User masih di halaman login
+4. User mendapatkan pesan error ""Epic sadface: Username and password do not match any user in this service""
+4. 1. User klik login
+2. User tidak bisa login
+3. User masih di halaman login
+4. User mendapatkan pesan error ""Epic sadface: Username and password do not match any user in this service""
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+",,High,Normal,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. ",
+4,"TC_04-Verifikasi login ketika user memasukan username dan password yang salah","Login Web Saucedemo",1,"Wildanul Ahsan",7657,Passed,"2022-11-29 04:32:27","1. User membuka browser
+2. User membuka situs https://www.saucedemo.com/
+3. User memasukan username dan password yang salah
+4. Klik login
+","1. Chrome, Mozilla, dll.
+2. https://www.saucedemo.com/
+3. username : wildan
+password : wildan
+4. 
+","1. User membuka browser Chrome
+2. 1. User bisa membuka situs https://www.saucedemo.com/
+2. User berada di halaman login
+3. 1. Username dan password salah
+2. User tidak bisa login
+3. User masih di halaman login
+4. User mendapatkan pesan error ""Epic sadface: Username and password do not match any user in this service""
+4. 1. User klik login
+2. User tidak bisa login
+3. User masih di halaman login
+4. User mendapatkan pesan error ""Epic sadface: Username and password do not match any user in this service""
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+",,High,Normal,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. ",
+5,"TC_05-Verifikasi login ketika user tidak memasukan username dan password","Login Web Saucedemo",1,"Wildanul Ahsan",8806,Passed,"2022-11-29 04:32:37","1. User membuka browser
+2. User membuka situs https://www.saucedemo.com/
+3. User tidak memasukan username dan password
+4. Klik login
+","1. Chrome, Mozilla, dll.
+2. https://www.saucedemo.com/
+3. username : 
+password :
+4. 
+","1. User membuka browser Chrome
+2. 1. User bisa membuka situs https://www.saucedemo.com/
+2. User berada di halaman login
+3. 1. Username dan password salah/kosong
+2. User tidak bisa login
+3. User masih di halaman login
+4. User mendapatkan pesan error ""Epic sadface: Username is required""
+4. 1. User klik login
+2. User tidak bisa login
+3. User masih di halaman login
+4. User mendapatkan pesan error ""Epic sadface: Username is required""
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+",,High,Normal,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. ",
+6,"TC_06-Verifikasi login ketika user tidak memasukan username","Login Web Saucedemo",1,"Wildanul Ahsan",8552,Passed,"2022-11-29 04:32:47","1. User membuka browser
+2. User membuka situs https://www.saucedemo.com/
+3. User tidak memasukan username, tetapi memasukan password yang benar
+4. Klik login
+","1. Chrome, Mozilla, dll.
+2. https://www.saucedemo.com/
+3. username : 
+password : secret\_sauce
+4. 
+","1. User membuka browser Chrome
+2. 1. User bisa membuka situs https://www.saucedemo.com/
+2. User berada di halaman login
+3. 1. Username salah/kosong
+2. User tidak bisa login
+3. User masih di halaman login
+4. User mendapatkan pesan error ""Epic sadface: Username is required""
+4. 1. User klik login
+2. User tidak bisa login
+3. User masih di halaman login
+4. User mendapatkan pesan error ""Epic sadface: Username is required""
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+",,High,Normal,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. ",
+7,"TC_07-Verifikasi login ketika user tidak memasukan password","Login Web Saucedemo",1,"Wildanul Ahsan",9488,Passed,"2022-11-29 04:32:58","1. User membuka browser
+2. User membuka situs https://www.saucedemo.com/
+3. User memasukan username yang benar, tetapi tidak memasukan password
+4. Klik login
+","1. Chrome, Mozilla, dll.
+2. https://www.saucedemo.com/
+3. username : standard\_user
+password :
+4. 
+","1. User membuka browser Chrome
+2. 1. User bisa membuka situs https://www.saucedemo.com/
+2. User berada di halaman login
+3. 1. Password salah/kosong
+2. User tidak bisa login
+3. User masih di halaman login
+4. User mendapatkan pesan error ""Epic sadface: Password is required""
+4. 1. User klik login
+2. User tidak bisa login
+3. User masih di halaman login
+4. User mendapatkan pesan error ""Epic sadface: Password is required""
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+",,High,Normal,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. ",
+8,"TC_08-Verifikasi login ketika user memasukan username dan password yang benar","Login Web Saucedemo",1,"Wildanul Ahsan",15000,Failed,"2022-11-29 04:41:24","1. User membuka browser
+2. User membuka situs https://www.saucedemo.com/
+3. User memasukan username dan password yang benar
+4. Klik login
+","1. Chrome, Mozilla, dll.
+2. https://www.saucedemo.com/
+3. username : locked\_out\_user
+password : secret\_sauce
+4. 
+","1. User membuka browser Chrome
+2. 1. User bisa membuka situs https://www.saucedemo.com/
+2. User berada di halaman login
+3. 1. Username dan passwor benar
+2. user bisa login
+4. 1. User klik login
+2. User bisa login
+3. User masuk halaman awal yang menampilkan produk baju dan tas
+","1. Passed
+2. Passed
+3. Failed
+4. Untested
+","**<span style=""color:var(--md-font-color-passed)"">Expected</span>** : ketika memasukan username dan password yang benar user bisa login, dan masuk ke halaman awal yang menampilkan produk baju dan tas.
+
+**<span style=""color:var(--md-font-color-failed)"">Actual</span>** : user tidak bisa login, user masih berada di halaman login, dan user mendapatkan pesan ""Epic sadface: Sorry, this user has been locked out"".
+username : locked\_out\_user",High,Normal,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. ",

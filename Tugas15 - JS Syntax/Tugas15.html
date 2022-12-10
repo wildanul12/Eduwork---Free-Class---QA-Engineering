@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas15 - JS Syntax</title>
+</head>
+<body>
+  <center><h2> Tugas15 JS Syntax </h2></center>
+  <hr>
+  <h3> Buatlah sebuah aplikasi dengan ketentuan sbb : </h3>
+  <h3> 1.Buatlah 3 buah variable </h3>
+  <h3> 2.Variable pertama berupa angka 10 dan variable kedua berupa tulisan “saya belajar javascript” </h3>
+  <h3> 3.Lalu jumlahkan antara variable pertama dan kedua </h3>
+  <h3> 4.Apabila anda menemukan keanehan atau masalah maka silahkan jumlahkan dengan angka berapapun menggunakan variable ketiga untuk menggantikan variable yang bermasalah</h3>
+  <hr>
+  <p id="soal1"></p>
+  <p id="soal2"></p>
+  <p id="soal3"></p>
+  <hr>
+  <p id="tugas1"></p>
+  <p id="tugas"></p>
+  <p id="penjelasan"></p>
+
+  <script>
+    let x, y, z;
+    x = 10;
+    y = "saya belajar javascript";
+    z = 90;
+
+    var a, b, c, d;
+    a = "Variable ke-1 = 10";
+    b = "Variable ke-2 = Saya belajar javascript";
+    c = "Variable ke-3 = 90";
+    d = "Jika number dengan string dijumlahkan secara langsung, hasilnya akan aneh, maka dibuatlah variable ke-3 dengan nilai number, supaya variable ke-1 bisa dijumlahkan";
+  
+    document.getElementById("soal1").innerHTML = a;
+    document.getElementById("soal2").innerHTML = b;
+    document.getElementById("soal3").innerHTML = c;
+    
+    document.getElementById("tugas1").innerHTML = "Jika variable ke-1 dijumlahkan dengan variable ke-2, maka hasilnya adalah : " + (x + y);
+    document.getElementById("tugas").innerHTML = "Jika variable ke-1 dijumlahkan dengan variable ke-3, maka hasilnya adalah : " + (x + z);
+
+    document.getElementById("penjelasan").innerHTML = d;
+  </script>
+
+</body>
+</html>

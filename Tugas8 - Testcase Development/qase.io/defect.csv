@@ -1,0 +1,5 @@
+"id","title","test case id","author","assignee","actual result","status","milestone","severity","external issues","attachments","tags"
+"1","TC_08-Verifikasi login ketika user memasukan username dan password yang benar","8","Wildanul Ahsan","Wildanul Ahsan","**<span style=""color:var(--md-font-color-passed)"">Expected</span>** : ketika memasukan username dan password yang benar user bisa login, dan masuk ke halaman awal yang menampilkan produk baju dan tas.
+
+**<span style=""color:var(--md-font-color-failed)"">Actual</span>** : user tidak bisa login, user masih berada di halaman login, dan user mendapatkan pesan ""Epic sadface: Sorry, this user has been locked out"".
+username : locked\_out\_user","Open","","Critical","","",""

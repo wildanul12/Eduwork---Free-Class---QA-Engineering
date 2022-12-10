@@ -1,0 +1,11 @@
+{
+  "name": "educy",
+  "version": "1.0.0",
+  "description": "automation test using cypress (learn)",
+  "main": "index.js",
+  "author": "wildan",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.0.1"
+  }
+}
